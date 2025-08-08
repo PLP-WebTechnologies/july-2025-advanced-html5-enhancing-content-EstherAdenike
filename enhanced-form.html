@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Music Plus</h1>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="#our-services">Our Services</a></li>
+          <li><a href="#media-files">Featured Songs</a></li>
+          <li><a href="#contact-form">Contact Form</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="our-services">
+        <table border="1">
+          <caption>
+            Our Services
+          </caption>
+          <thead>
+            <tr>
+              <th>Service</th>
+              <th>Description</th>
+              <th>Pricing</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Music Streaming</td>
+              <td>Unlimited access to songs, albums, and curated playlists</td>
+              <td>Free / Premium ($9.99/month)</td>
+            </tr>
+            <tr>
+              <td>Song Downloads</td>
+              <td>Purchase and download individual tracks or full albums</td>
+              <td>From $0.99 per track</td>
+            </tr>
+            <tr>
+              <td>Artist Promotion</td>
+              <td>Promote your music to a global online audience</td>
+              <td>Starting at $29.99</td>
+            </tr>
+            <tr>
+              <td>Live Concert Tickets</td>
+              <td>Find and book tickets for live music events and concerts</td>
+              <td>Varies by event</td>
+            </tr>
+            <tr>
+              <td>Music Licensing</td>
+              <td>
+                License tracks for use in videos, films, or advertisements
+              </td>
+              <td>Custom pricing based on usage</td>
+            </tr>
+            <tr>
+              <td>Playlist Curation</td>
+              <td>Get personalized playlists created by experts or AI</td>
+              <td>Included in Premium</td>
+            </tr>
+            <tr>
+              <td>Music News & Reviews</td>
+              <td>Stay updated with the latest news and album reviews</td>
+              <td>Free</td>
+            </tr>
+            <tr>
+              <td>Podcast Hosting</td>
+              <td>Upload and share your music-related podcasts</td>
+              <td>Premium feature</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section id="media-files">
+        <h2>Featured</h2>
+        <section id="audio-files">
+          <h3>Audio</h3>
+          <h4>Sound Helix</h4>
+          <audio controls>
+            <source
+              src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+              type="audio/mp3"
+            />
+          </audio>
+          <h4>Creative Minds</h4>
+          <audio controls>
+            <source src="files/bensound-creativeminds.mp3" type="audio/mp3" />
+          </audio>
+          <h4>Slow Life</h4>
+          <audio controls>
+            <source src="files/bensound-slowlife.mp3" type="audio/mp3" />
+          </audio>
+        </section>
+        <section id="video-files">
+          <h3>Video</h3>
+          <h4>Melody</h4>
+          <video controls width="360">
+            <source src="files/melody.mp4" type="video/mp4" />
+          </video>
+          <h4>Pattern</h4>
+          <video controls width="360">
+            <source src="files/pattern.mp4" type="video/mp4" />
+          </video>
+          <h4>Music Stand</h4>
+          <video controls width="360">
+            <source src="files/stand.mp4" type="video/mp4" />
+          </video>
+        </section>
+      </section>
+      <section id="contact-form">
+        <h2>Get in Touch</h2>
+        <form action="">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter your name"
+            required
+          /><br /><br />
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email address"
+            required
+          /><br /><br />
+          <label for="subject">Subject</label>
+          <select name="subject" id="subject">
+            <option value="general-inquiry">General Inquiry</option>
+            <option value="booking-request">Booking Request</option>
+            <option value="music-submission">Music Submission</option>
+            <option value="technical-support">Technical Support</option></select
+          ><br /><br />
+          <label for="message">Message</label>
+          <textarea name="message" id="message" rows="5" cols="40">
+Tell us how we can help you...</textarea
+          ><br /><br />
+
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+    <footer><p>&copy; Esther Akande 2025</p></footer>
+  </body>
+</html>
